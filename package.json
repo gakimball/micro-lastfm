@@ -1,0 +1,43 @@
+{
+  "name": "micro-lastfm",
+  "version": "1.0.0",
+  "description": "Microservice to fetch last song scrobbled on Last.fm",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "test": "xo && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/micro-lastfm.git"
+  },
+  "keywords": [
+    "micro-lastfm"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/micro-lastfm/issues"
+  },
+  "homepage": "https://github.com/gakimball/micro-lastfm#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^5.0.1",
+    "micro-dev": "^3.0.0",
+    "mocha": "^5.1.1",
+    "test-listen": "^1.1.0",
+    "xo": "^0.21.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "micro": "^9.3.2",
+    "node-fetch": "^2.1.2",
+    "query-string": "^6.1.0"
+  }
+}
