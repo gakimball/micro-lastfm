@@ -1,4 +1,7 @@
 language: node_js
 node_js:
-  - "10"
-  - "8"
+- '10'
+- '8'
+env:
+  global:
+    secure: a/vN24RblBk8xr4JJXZDICK4odmPTmbZvC8cDfUOIzvH7zdgIZnZTkhx0qtpsTOBtpTZa5VdTjCa91+e69IyOVdtYoAboB6o3ucnx5baqrE2eRSGZtba7sxXU64OD9XhHrAONgpia6xdyhheFSp8dIaMdqJi9nGneHVKzczZVFcrrI5KdxQqOJz5pHOTRim/jjQaYjnX4roDkXpWVtpN53Ao+VWUXABYgsoDGF0OhopPQkR9SHX82ABHAoGmqPruTR1vByejrH2/SbJd2P3xiLyn25+9OsZyxzmq7KOsh4Z1niF6x/1pHuWhr0XBca5xAbi3qRu7kT2eyIRotoiB1tLJxvKELZNrhHwJXJD77YAtxvEyTu//KPSJWcAEHUfv+5aBe6nupNS1B5TgT29+GKNAJOcG1Pr77g7x/1dchve5yPs3Y1jM5vG+/DNmTlAgxj7F8YWVK2TR6WomstUNUS37Vvn/vYBX8hpZI1ftfZZPhliBhmbclOO9KHD5O3qrs2FMqPczcJ2Npz/cVp1kgzS0EMne8fgytnwNOQlIQKq9nr+As0K3YvEntA84M1r3UwOdr2Iyhp5vntK9yIGPn53YkSKzdREDZx2YnDdHmJb46TDnssXWejn4MEYdkGhLJatdSBefG7iVKvd0S8aG1XxNn7Ml1AcVIB+ucecb6wg=
